@@ -1,0 +1,108 @@
+/* Global Styles */
+/* Standard colors */
+/* Fonts */
+/* Images Paths*/
+/* line 4, ../sass/base/_global.scss */
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 10, ../sass/base/_global.scss */
+html, body {
+  background-color: #f1f1f1;
+}
+
+/* line 14, ../sass/base/_global.scss */
+body, section {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 31, ../sass/base/_global.scss */
+a, a:hover, a:focus {
+  color: #242424;
+  text-decoration: none;
+}
+
+/* Estructure */
+/* line 3, ../sass/components/_head.scss */
+.head .slider {
+  height: 323px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 10, ../sass/components/_head.scss */
+.head .navigation-bar {
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  width: 100%;
+}
+/* line 17, ../sass/components/_head.scss */
+.head .navigation-bar .logo {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 400;
+  color: #0037ff;
+  font-size: 2em;
+  float: left;
+  padding: 10px 0px;
+  letter-spacing: -0.1em;
+}
+/* line 26, ../sass/components/_head.scss */
+.head .navigation-bar .logo span {
+  font-weight: 700;
+}
+
+/* line 1, ../sass/components/_navigation.scss */
+.nav-bottom {
+  width: 970px;
+}
+/* line 4, ../sass/components/_navigation.scss */
+.nav-bottom ul {
+  width: 636px;
+  float: right;
+  padding: 0px;
+  margin: 6px 0px;
+}
+/* line 10, ../sass/components/_navigation.scss */
+.nav-bottom ul li {
+  list-style: none;
+  display: inline-block;
+}
+/* line 14, ../sass/components/_navigation.scss */
+.nav-bottom ul li a {
+  font-weight: 700;
+  padding: 13px 7px;
+  font-size: 1.12em;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+}
+/* line 31, ../sass/components/_navigation.scss */
+.nav-bottom ul li a:focus {
+  background-color: #f1f1f1;
+}

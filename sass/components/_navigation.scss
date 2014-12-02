@@ -1,0 +1,37 @@
+.nav-bottom{
+	width: 970px;
+
+	ul{
+		width: 636px;
+		float: right;
+		padding: 0px;
+		margin: 6px 0px;
+
+		li{
+			list-style: none;
+			display: inline-block;
+
+			a{
+				font-weight: $font-weight-bold;
+				padding: 13px 7px;
+				font-size: 1.12em;
+				display: inline-block;
+				text-align: center;
+				white-space: nowrap;
+				vertical-align: middle;
+				-ms-touch-action: manipulation;
+				touch-action: manipulation;
+				cursor: pointer;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				background-image: none;
+
+				&:focus{
+					background-color: $color-grey;
+				}
+			}
+		}
+	}
+}
