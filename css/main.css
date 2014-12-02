@@ -37,6 +37,11 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+/* line 36, ../sass/base/_global.scss */
+.fix-width {
+  width: 970px;
+}
+
 /* Estructure */
 /* line 3, ../sass/components/_head.scss */
 .head .slider {
@@ -68,23 +73,19 @@ a, a:hover, a:focus {
   font-weight: 700;
 }
 
-/* line 1, ../sass/components/_navigation.scss */
-.nav-bottom {
-  width: 970px;
-}
-/* line 4, ../sass/components/_navigation.scss */
+/* line 3, ../sass/components/_navigation.scss */
 .nav-bottom ul {
   width: 636px;
   float: right;
   padding: 0px;
   margin: 6px 0px;
 }
-/* line 10, ../sass/components/_navigation.scss */
+/* line 9, ../sass/components/_navigation.scss */
 .nav-bottom ul li {
   list-style: none;
   display: inline-block;
 }
-/* line 14, ../sass/components/_navigation.scss */
+/* line 13, ../sass/components/_navigation.scss */
 .nav-bottom ul li a {
   font-weight: 700;
   padding: 13px 7px;
@@ -102,7 +103,13 @@ a, a:hover, a:focus {
   user-select: none;
   background-image: none;
 }
-/* line 31, ../sass/components/_navigation.scss */
+/* line 30, ../sass/components/_navigation.scss */
 .nav-bottom ul li a:focus {
   background-color: #f1f1f1;
+}
+
+/* line 1, ../sass/components/_icons-values.scss */
+.icons-values {
+  height: 74px;
+  background-color: black;
 }
